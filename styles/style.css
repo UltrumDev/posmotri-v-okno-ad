@@ -306,3 +306,33 @@ ol {
 .content__list-container {
   position: relative;
 }
+
+.more-button {
+  height: 34px;
+  width: 194px;
+  appearance: none;
+  align-self: center;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #FFF;
+  font-weight: bold;
+  width: 390px;
+  margin-top: 7px;
+  font-size: 14pt;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+.more-button:active {
+  background-color: #545050;
+}
+
+.more-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.more-button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
